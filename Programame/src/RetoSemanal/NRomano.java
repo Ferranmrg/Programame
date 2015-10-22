@@ -4,6 +4,7 @@ public class NRomano {
 	public static void main(String[] args) {
 		System.out.println(RomanNumerals("XLIX"));
 	}
+
 	static int RomanNumerals(String s) {
 		int total = 0, anterior = 0;
 		for (int i = 0; i < s.length(); i++) {
